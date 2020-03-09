@@ -1,1 +1,1 @@
-<h2>Atividade feitas em aula</h2>
+<h2>Atividades feitas em aula</h2>
