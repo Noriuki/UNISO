@@ -50,9 +50,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
             db.execSQL(sql);
 
-            insertProduto(db, "Camiseta", "Camiseta polo branca", 29.90);
+            insertProduto(db, "Cueca", "Cueca Box", 123.99);
+            insertProduto(db, "Camisa", "Camisa polo", 29.90);
             insertProduto(db, "Tenis", "Tenis de caminhada", 123.99);
-            insertProduto(db, "Carteira", "Carteira de couro de jacaré", 59.99);
         }
 
     }
