@@ -31,4 +31,21 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+    public void onClickCadastrarEmail(View view){
+
+        Intent intencao = new Intent(this, CriarEmail.class);
+
+        startActivity(intencao);
+
+    }
+
+    public void onClickNovo(View view){
+
+        Intent intencao = new Intent(this, NovoProduto.class);
+
+        startActivity(intencao);
+
+    }
+
 }

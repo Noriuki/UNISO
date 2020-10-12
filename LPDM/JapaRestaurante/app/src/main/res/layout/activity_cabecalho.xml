@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cabecalho">
+    <ImageView
+        android:id="@+id/sushi_img"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/sushi_alt"
+        android:cropToPadding="false"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sushi" />
+
+    <TextView
+        android:id="@+id/home_logo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#B3000000"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/home_logo"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sushi_img" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
